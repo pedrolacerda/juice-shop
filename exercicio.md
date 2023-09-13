@@ -48,7 +48,7 @@ Agora vamos adicionar a revisão de dependências (Dependency Review) para que, 
    6. Marque a opção `Require review from Code Owners`
 4. Adicione uma validação obrigatória para o CodeQL
    1. Marque o checkbox `Require status checks to pass before merging`, depois clique no checkbox `Require branches to be up to date before merging`.
-   2. Na caixa de texto, busque por `Analyze` e selecione a opção `Analyze (javascript)`
+   2. Na caixa de texto, busque por `CodeQL` e selecione a opção `CodeQL`
    3. Isso fará com que os Pull Requests tenham, necessariamente, que avaliar se a aplicação não contém vulnerabilidades de Javascript e, caso tenha, bloqueia o merge
 5. Faça uma modificação no `README.md` (pode inserir qualquer texto) e faça o commit
    1. :warning: **Você pode criar um novo branch antes de fazer a ediçao do `README.md` ou criar um novo branch no momento do commit**
